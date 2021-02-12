@@ -1,0 +1,29 @@
+{
+    "name": "petap/default-service",
+    "description": "ZF2 Module for creating invokables services and with factory",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "module",
+        "zf2 module",
+        "abstract factory",
+        "factory"
+    ],
+    "homepage": "https://github.com/petap/DefaultService",
+    "authors": [
+        {
+            "name": "Yura Shirokikh",
+            "email": "shirokikh.yura@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laminas/laminas-servicemanager": "3.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Petap\\DefaultService\\": "src/"
+        }
+    }
+}
